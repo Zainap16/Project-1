@@ -1,15 +1,15 @@
-#countLbl {
+#countLbl, #rollLabel {
     display: block;
     text-align: center;
     font-size: 10em;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-main > .btnClass, h1{
+main > article > .btnClass, h1, h2 {
     text-align: center;
 }
 
-.buttons{
+.buttons, #roll{
     padding: 10px 20px;
     font-size: 1.5em;
     color: white;
@@ -19,8 +19,13 @@ main > .btnClass, h1{
     transition: background-color 0.25s;
 }
 
-.buttons:hover{
+.buttons:hover, #roll:hover{
     background-color: rgb(102, 26, 26);
 }
 
+/* centers btn Roll */
+#roll{
+    display: block;
+    margin: 0 auto;
+}
 

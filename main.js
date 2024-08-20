@@ -20,3 +20,10 @@ decreasebtn.onclick =  function(){
     count--;
     countLabel.textContent = `${count}`;
 }
+
+roll = document.getElementById('roll');
+rollLbl = document.getElementById('rollLabel');
+roll.addEventListener('click', function() {
+    num = Math.floor(Math.random() * 101);
+    rollLbl.textContent = `${num}`;
+})
