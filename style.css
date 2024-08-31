@@ -1,4 +1,4 @@
-#countLbl, #rollLabel {
+#countLbl, #rollLabel,#displaylbl {
     display: block;
     text-align: center;
     font-size: 10em;
