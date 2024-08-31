@@ -58,3 +58,15 @@ if (guessInput && btnSubmit && displaylbl) {
         }
     });
 }
+
+let generatelbl = document.getElementById('generatelbl');
+let generatebtn = document.getElementById('generate');
+
+if( generatebtn && generatelbl){
+
+    generatebtn.addEventListener('click', function(){
+        //regexs
+        generatelbl.textContent = `hehehe`
+    })
+
+}
